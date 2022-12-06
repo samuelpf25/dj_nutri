@@ -1,0 +1,132 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+{% include 'head.html' %}
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER PART START ======-->
+
+    {% include 'preloader.html' %}
+
+    <!--====== PRELOADER ENDS START ======-->
+
+
+
+    <!--====== HEADER PART START ======-->
+
+    {% include 'header.html' %}
+
+    <!--====== HEADER PART ENDS ======-->
+
+
+
+    <!--====== ABOUT PART START ======-->
+
+    {% include 'about.html' %}
+
+    <!--====== ABOUT PART ENDS ======-->
+
+
+
+    <!--====== SERVICES PART START ======-->
+
+    {% include 'services.html' %}
+
+    <!--====== SERVICES PART ENDS ======-->
+
+
+
+    <!--====== PROJECT PART START ======-->
+
+    <!--include 'projects.html'-->
+
+    <!--====== PROJECT PART ENDS ======-->
+
+
+
+    <!--====== TEAM PART START ======-->
+
+    {% include 'team.html' %}
+
+    <!--====== TEAM PART ENDS ======-->
+
+
+
+    <!--====== TESTIMONIAL PART START ======-->
+
+    <!--include 'testimonial.html' -->
+
+    <!--====== TESTIMONIAL PART ENDS ======-->
+
+
+
+    <!--====== CONTACT PART START ======-->
+
+    <!--include 'contact.html' %}-->
+
+    <!--====== CONTACT PART ENDS ======-->
+
+
+
+    <!--====== MAP PART START ======-->
+
+    <section id="map" class="map-area">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=palmas%20tocantins&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+        <div class="map-bg bg_cover d-none d-lg-block" style="background-image: url({% static 'images/map/map-bg.jpg' %})"></div>
+    </section>
+
+    <!--====== MAP PART ENDS ======-->
+
+
+
+    <!--====== FOOTER PART START ======-->
+
+    {% include 'footer.html' %}
+
+    <!--====== FOOTER PART ENDS ======-->
+
+
+
+    <!--====== BACK TO TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TO TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+
+    <!-- row -->
+
+
+
+{% include 'scripts.html' %}
+
+
+
+</body>
+
+</html>
